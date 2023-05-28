@@ -8,7 +8,7 @@ You can return the answer in any order.
 Input: nums = [2,7,11,15], target = 9
 Output0 [0,1]
 
-**Explanation:** Because nums[0] + nums[1] == 9, we return [0, 1][
+**Explanation:** Because nums[0] + nums[1] == 9, we return [0, 1]
 
 
 
@@ -24,7 +24,7 @@ for(let i=0; i<arr.length;i++){
     }
 }```
 
-------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 💡 **Q2.** Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
 
@@ -37,7 +37,8 @@ Consider the number of elements in nums which are not equal to val be k, to get 
 Input: nums = [3,2,2,3], val = 3
 Output: 2, nums = [2,2,_*,_*]
 
-**Explanation:** Your function should return k = 2, with the first two elements of nums being 2. It does not matter what you leave beyond the returned k (hence they are underscores)[
+**Explanation:** Your function should return k = 2, with the first two elements of nums being 2. It does not matter what you leave beyond the returned k (hence they are underscores)
+
 
 ```let arr = [7,8,1,5,3,6,4,8,8,1]
 
